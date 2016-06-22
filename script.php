@@ -41,7 +41,7 @@ class Com_PropertiesInstallerScript
   function update($parent) 
   {
     // $parent is the class calling this method
-    echo '<p>Updated to ' . $parent->get('manifest')->version) . '</p>';
+    echo '<p>Updated to ' . $parent->get('manifest')->version . '</p>';
   }
  
   /**
