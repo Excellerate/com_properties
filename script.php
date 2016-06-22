@@ -2,6 +2,10 @@
 
 // No direct access to this file
 defined('_JEXEC') or die('Restricted access');
+
+/**
+ * https://github.com/Excellerate/com_properties/archive/develop.zip
+ */
  
 /**
  * Script file of the Properties component
