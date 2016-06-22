@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.2.0" method="upgrade">
+  <name>JHI Properties</name>
+  <creationDate>May 2016</creationDate>
+  <author>CodeChap</author>
+  <authorEmail>hello@codechap.com</authorEmail>
+  <authorUrl>http://codechap.com</authorUrl>
+  <copyright>Excelelrate Properties</copyright>
+  <license>Excellerate</license>
+  <version>0.0.1</version>
+  <description>JHI Properties listing</description>
+  
+  <scriptfile>script.php</scriptfile>
+  
+  <install>
+    <sql>
+      <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+    </sql>
+  </install>
+  
+  <uninstall>
+    <sql>
+      <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+    </sql>
+  </uninstall>
+  
+  <update>
+    <schemas>
+      <schemapath type="mysql">sql/updates/mysql</schemapath>
+    </schemas>
+  </update>
+  
+  <files folder="site">
+    <folder>assets</folder>
+    <folder>models</folder>
+    <folder>views</folder>
+    <filename>controller.php</filename>
+    <filename>index.html</filename>
+    <filename>properties.php</filename>
+  </files>
+  
+  <administration>
+    
+    <menu link='index.php?option=com_properties'>JHI Properties</menu>
+    
+    <files folder="admin">
+      <folder>controllers</folder>
+      <folder>models</folder>
+      <folder>sql</folder>
+      <folder>tables</folder>
+      <folder>views</folder>
+      <filename>index.html</filename>
+      <filename>properties.php</filename>
+      <filename>controller.php</filename>
+    </files>
+  
+  </administration>
+
+<updateservers>
+  <server type="extension" priority="1" name="Downloads Updates"><![CDATA[https://raw.githubusercontent.com/Excellerate/com_properties/develop/update.xml]]></server>
+</updateservers>
+
+</extension>
