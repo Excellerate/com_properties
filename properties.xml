@@ -7,7 +7,7 @@
   <authorUrl>http://codechap.com</authorUrl>
   <copyright>Excelelrate Properties</copyright>
   <license>Excellerate</license>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <description>JHI Properties listing</description>
   
   <scriptfile>script.php</scriptfile>
@@ -41,7 +41,7 @@
   
   <administration>
     
-    <menu link='index.php?option=com_properties'>JHI Properties</menu>
+    <menu link='index.php?option=com_properties'>Properties</menu>
     
     <files folder="admin">
       <folder>controllers</folder>

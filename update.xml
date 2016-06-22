@@ -1,18 +1,14 @@
 <update>
-  <name>Downloads</name>
-  <description>Track file downloads</description>
-  <element>downloads</element>
-  <type>component</type>
+  <name>JCE Editor</name>
   <version>0.0.2</version>
-  <infourl title="Joomla!"></infourl>
+  <infourl title="JHI Properties"></infourl>
   <downloads>
-    <downloadurl type="full" format="zip"></downloadurl>
+    <downloadurl type="full" format="zip">
+      https://github.com/Excellerate/com_properties/archive/develop.zip
+    </downloadurl>
   </downloads>
-  <tags>
-    <tag>dev</tag>
-  </tags>
-  <maintainer>CodeChap</maintainer>
-  <maintainerurl>http://codechap.com</maintainerurl>
-  <section></section>
-  <targetplatform name="joomla" version="2.5"/>
+  <targetplatform name="joomla" version="3.5"/>
+  <element>com_properties</element>
+  <type>component</type>
+  <client>administrator</client>
 </update>
