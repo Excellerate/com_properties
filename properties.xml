@@ -49,9 +49,9 @@
       <folder>sql</folder>
       <folder>tables</folder>
       <folder>views</folder>
+      <filename>controller.php</filename>
       <filename>index.html</filename>
       <filename>properties.php</filename>
-      <filename>controller.php</filename>
     </files>
   
   </administration>

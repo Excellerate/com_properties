@@ -51,7 +51,7 @@ class Com_PropertiesInstallerScript
    */
   function preflight($type, $parent) 
   {
-
+    return true;
   }
  
   /**
@@ -61,6 +61,6 @@ class Com_PropertiesInstallerScript
    */
   function postflight($type, $parent) 
   {
-
+    return true;
   }
 }
