@@ -33,6 +33,10 @@
   <languages folder="site">
     <language tag="en-GB">language/en-GB.com_folio.ini</language>
   </languages>
+
+  <updateservers>
+    <server type="extension" priority="1" name="Downloads Updates"><![CDATA[https://raw.githubusercontent.com/Excellerate/com_properties/develop/update.xml]]></server>
+  </updateservers>
   
   <files folder="site">
     <folder>assets</folder>
@@ -66,9 +70,5 @@
     </languages>
   
   </administration>
-
-<updateservers>
-  <server type="extension" priority="1" name="Downloads Updates"><![CDATA[https://raw.githubusercontent.com/Excellerate/com_properties/develop/update.xml]]></server>
-</updateservers>
 
 </extension>
