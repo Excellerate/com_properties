@@ -5,7 +5,7 @@
   <author>CodeChap</author>
   <authorEmail>hello@codechap.com</authorEmail>
   <authorUrl>http://codechap.com</authorUrl>
-  <copyright>Excelelrate Properties</copyright>
+  <copyright>Excellerate Properties</copyright>
   <license>Excellerate</license>
   <version>0.0.2</version>
   <description>JHI Properties listing</description>
@@ -49,9 +49,10 @@
   
   <administration>
     
-    <menu img="class:categories" link='index.php?option=com_properties'>COM_FOLIO_MENU</menu>
+    <menu img="class:categories" link='index.php?option=com_properties'>COM_PROPERTIES_MENU</menu>
     
     <files folder="admin">
+      <folder>assets</folder>
       <folder>controllers</folder>
       <folder>helpers</folder>
       <folder>language</folder>
